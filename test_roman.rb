@@ -31,4 +31,8 @@ class Test_roman_numeral < Minitest::Test
     assert_equal("X", converter(10))
   end
 
+  def test_that_12_returns_XII
+    assert_equal("XII", converter(12))
+  end
+
 end
