@@ -71,4 +71,8 @@ class Test_roman_numeral < Minitest::Test
     assert_equal("D", converter(500))
   end
 
+  def test_that_800_returns_DCCC
+    assert_equal("DCCC", converter(800))
+  end
+
 end
