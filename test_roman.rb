@@ -63,4 +63,8 @@ class Test_roman_numeral < Minitest::Test
     assert_equal("C", converter(100))
   end
 
+  def test_that_400_returns_CD
+    assert_equal("CD", converter(400))
+  end
+
 end
