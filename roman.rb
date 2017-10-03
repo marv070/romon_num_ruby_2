@@ -1,5 +1,5 @@
 def converter(num)
-  pairs = {9=> "IX", 5 => "V", 4=> "IV", 1=> "I"}
+  pairs = {10=> "X", 9=> "IX", 5=> "V", 4=> "IV", 1=> "I"}
   results = ""
   pairs.each do |number, roman|
     div = num/number
