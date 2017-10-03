@@ -19,4 +19,10 @@ class Test_roman_numeral < Minitest::Test
     assert_equal("VI", converter(6))
   end
 
+  def test_that_9_returns_IX
+    assert_equal("IX", converter(9))
+  end
+
+  
+
 end
