@@ -15,4 +15,8 @@ class Test_roman_numeral < Minitest::Test
     assert_equal("III", converter(3))
   end
 
+  def test_that_6_returns_VI
+    assert_equal("VI", converter(6))
+  end
+
 end
