@@ -39,4 +39,8 @@ class Test_roman_numeral < Minitest::Test
     assert_equal("XIV", converter(14))
   end
 
+  def test_that_40_returns_XL
+    assert_equal("XL", converter(40))
+  end
+
 end
