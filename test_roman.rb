@@ -51,4 +51,8 @@ class Test_roman_numeral < Minitest::Test
     assert_equal("LXXV", converter(75))
   end
 
+  def test_that_90_returns_XC
+    assert_equal("XC", converter(90))
+  end
+
 end
