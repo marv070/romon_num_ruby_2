@@ -78,4 +78,8 @@ class Test_roman_numeral < Minitest::Test
   def test_that_900_returns_CM
     assert_equal("CM", converter(900))
   end
+
+  def test_that_1000_returns_m
+    assert_equal("M", converter(1000))
+  end
 end
